@@ -1,0 +1,44 @@
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+    gap: 6rem;
+}
+.navigation-link:hover{
+    background-color: var(--color-brown);
+    padding: .5rem;
+    color: var(--color-secondary);
+    transition: .5s;
+    border-radius: 1rem;
+}
+.navigation-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    color: inherit;
+}
+
+@media screen and (max-width: 43.25rem) {
+    .header-navigation{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem
+    }
+    .navigation-list{
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    
+}

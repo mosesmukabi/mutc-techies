@@ -12,11 +12,14 @@ body{
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
   background-color: var(--color-primary);
+  color: var(--color-black);
+  padding: 0 2rem;
 }
 
 :root{
-  --color-primary: #EDDFE0;
+  --color-primary: #FAF7F0;
   --color-secondary: #F5F5F7;
   --color-blackfade: #B7B7B7;
   --color-brown: #705C53;
+  --color-black: black;
 }
