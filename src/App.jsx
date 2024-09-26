@@ -12,17 +12,17 @@ function App() {
 
   return (
     <>
-    <Header />
+    
     <BrowserRouter>
+    <Header />
       <Routes>
        <Route path='/' element ={<Home/>} />
        <Route path='/Leadership' element ={<Leadership/>} />
        <Route path='/Tracks' element ={<Tracks/>} />
        <Route path='/Eventss' element ={<Eventss/>} />
       </Routes>
+      <Footer />
     </BrowserRouter>
-    <Footer />
-    
     </>
   )
 }

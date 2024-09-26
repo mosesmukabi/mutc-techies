@@ -9,10 +9,10 @@ function HeaderNavigation () {
             <h1 className="logo">mutc-techies</h1>
             <nav>
                 <ol className="navigation-list">
-                    <li className="navigation-item"><a className="navigation-link" href="/">Home</a></li>
-                    <li className="navigation-item"><a className="navigation-link" href="/Leadership">Leadership</a></li>
-                    <li className="navigation-item"><a className="navigation-link" href="/Tracks">Tracks</a></li>
-                    <li className="navigation-item"><a className="navigation-link" href="/Eventss">Events</a></li>
+                    <li className="navigation-item"><Link className="navigation-link" to="/">Home</Link></li>
+                    <li className="navigation-item"><Link className="navigation-link" to="/Leadership">Leadership</Link></li>
+                    <li className="navigation-item"><Link className="navigation-link" to="/Tracks">Tracks</Link></li>
+                    <li className="navigation-item"><Link className="navigation-link" to="/Eventss">Events</Link></li>
                 </ol>
             </nav>
         </div>
