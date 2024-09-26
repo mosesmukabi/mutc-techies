@@ -1,0 +1,10 @@
+.Tittle{
+    text-align: center;
+}
+.Tittle__main{
+    letter-spacing: 2px;
+    color: var(--color-brown);
+    text-transform: uppercase;
+    font-weight: 2rem;
+    text-shadow: 0 0 2rem var(--color-brown);
+}
