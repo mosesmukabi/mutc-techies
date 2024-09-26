@@ -8,7 +8,7 @@ function Home() {
     <Hero  />
     <Tittle mainTittle ="About us"/>
     <About />
-
+    <Tittle mainTittle ="Testimonials"/>
     </>
   )
 }
