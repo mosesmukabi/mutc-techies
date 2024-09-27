@@ -1,6 +1,7 @@
 .About-section{
     margin-top: 9rem;
     display: flex;
+    flex-wrap: wrap;
     gap: 3rem;
     justify-content: center;
 }
@@ -13,7 +14,7 @@
 }
 
 .about-image{
-    height: 15rem;
+    height: 12rem;
 }
 
 .about-image img{
