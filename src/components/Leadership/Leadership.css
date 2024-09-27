@@ -1,0 +1,72 @@
+
+.Leadership-cards{
+    width: 35rem;
+    height: 39rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    
+
+}
+.Leaders-details{
+    height: 21.5rem;
+    background-color: var(--color-primary);
+    
+}
+
+.Leaders-details img{
+    --size: 20rem;
+    height: var(--size);
+    width: var(--size);
+    border-radius: 10rem;
+    margin: .5rem 9rem;
+    box-shadow: 0 0 5px var(--color-black);
+    
+}
+
+.moses-section{
+    background-color: var(--color-primary);
+    box-shadow: 0 0 5px var(--color-black);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    color: var(--color-brown);
+}
+.raeder-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.social-media-icons a {
+    margin-right: 10px;
+    color: var(--color-brown); 
+    transition: color 0.3s ease;
+    padding: 3.5rem;
+    margin: 3rem auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .social-media-icons a:hover {
+    color: #007bff;
+  }
+
+  .social-media-icons{
+    gap: 5rem;
+  }
+
+  .leader-name{
+    text-align: center;
+  }
+
+  .leader-name:hover{
+    color: var(--color-black);
+    text-shadow: 0 0 1rem var(--color-brown);
+    transition: .5s;
+    cursor: pointer;
+  }
+  .Biography-text{
+    margin-bottom: 1rem;
+  }
