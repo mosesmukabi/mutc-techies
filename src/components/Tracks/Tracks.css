@@ -1,0 +1,37 @@
+.tracks-cards{
+    display: flex;
+    gap:2rem;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.header{
+    text-align: center;
+    color: var(--color-brown);
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}
+
+.header:hover{
+    color: var(--color-black);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tracks-video video{
+ height: 33rem;
+ border-radius: 7px;
+ 
+}
+.track-cintent-section{
+    width: 60rem;
+    box-shadow: 0 0 5px var(--color-black);
+    border-radius: 5px;
+}
+
+.track-text{
+    line-height: 3rem;
+    padding: 1rem;
+    letter-spacing: .5px;
+}
