@@ -1,42 +1,40 @@
-.Testimonials-cards{
-    box-shadow: 0 0 1rem var(--color-black);
-    border-radius: 15px;
-    width: 60rem;
-    margin: 2rem auto;
-    padding: 1rem;
+.Testimonials-cards {
+  box-shadow: 0 0 1rem var(--color-black);
+  border-radius: 15px;
+  width: 60rem;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
-.student-Testimonials-details{
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
+.student-Testimonials-details {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
 
-.student-Testimonials-details img{
-    --size: 8rem;
-    width: var(--size);
-    height: var(--size);
-    border-radius: 50%;
-
+.student-Testimonials-details img {
+  --size: 8rem;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
 }
 
-.student-name{
-    text-transform: capitalize;
-    letter-spacing: 2px;
+.student-name {
+  text-transform: capitalize;
+  letter-spacing: 2px;
 }
 
-.testmony-tittle{
-     text-transform: capitalize;
-     margin:2rem 0 ;
+.testmony-tittle {
+  text-transform: capitalize;
+  margin: 2rem 0;
 }
 
-.testmony-text{
-    font-size: 1.3rem;
-    line-height: 2.5rem;
-    text-align: justify;
-    
+.testmony-text {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  text-align: justify;
 }
 
-.testmonials-container{
-    margin: 6rem 7rem;
+.testmonials-container {
+  margin: 6rem 7rem;
 }

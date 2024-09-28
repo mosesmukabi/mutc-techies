@@ -1,11 +1,11 @@
-import "./Tittle.css"
+import "./Tittle.css";
 
-function Tittle({mainTittle}) {
+function Tittle({ mainTittle }) {
   return (
-    <div className='Tittle'>
-        <h1 className='Tittle__main'>{mainTittle}</h1>
+    <div className="Tittle">
+      <h1 className="Tittle__main">{mainTittle}</h1>
     </div>
-  )
+  );
 }
 
-export default Tittle
+export default Tittle;

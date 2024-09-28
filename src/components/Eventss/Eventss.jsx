@@ -1,6 +1,6 @@
-import React from 'react';
-import './Eventss.css';
-import EventsData from '../../data/Eventss';
+import React from "react";
+import "./Eventss.css";
+import EventsData from "../../data/Eventss";
 
 function Events({ course, day, time, venue, instructor }) {
   return (
@@ -28,18 +28,16 @@ function TableTest() {
   return (
     <section>
       <div className="detai-container">
-        {
-          EventsData.map((event, i) => (
-            <Events
-              key={i}
-              course={event.course}
-              day={event.day}
-              time={event.time}
-              venue={event.venue}
-              instructor={event.instructor}
-            />
-          ))
-        }
+        {EventsData.map((event, i) => (
+          <Events
+            key={i}
+            course={event.course}
+            day={event.day}
+            time={event.time}
+            venue={event.venue}
+            instructor={event.instructor}
+          />
+        ))}
       </div>
     </section>
   );
