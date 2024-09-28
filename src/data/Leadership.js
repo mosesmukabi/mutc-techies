@@ -1,14 +1,14 @@
 import ndia from '../assets/gware.jpeg'
 import njeri from '../assets/james.jpg'
 import allan from '../assets/Hida.jpeg'
-import bridget from '../assets/james.jpg'
-import ruth from '../assets/james.jpg'
-import ifadhe from '../assets/james.jpg'
-import manase from '../assets/james.jpg'
-import carolyne from '../assets/james.jpg'
-import paul from '../assets/james.jpg'
-import stanley from '../assets/james.jpg'
-import evyonn from '../assets/james.jpg'
+import bridget from '../assets/mary.jpeg'
+import ruth from '../assets/personfive.jpeg'
+import ifadhe from '../assets/personfour.jpeg'
+import manase from '../assets/personsix.jpeg'
+import carolyne from '../assets/waithe.jpeg'
+import paul from '../assets/personthree.jpeg'
+import stanley from '../assets/joki.jpeg'
+import evyonn from '../assets/mercy.jpeg'
 
 const Leaders = [
     {

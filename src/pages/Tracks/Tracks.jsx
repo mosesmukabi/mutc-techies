@@ -1,10 +1,11 @@
 import React from 'react'
-
+import Tittle from '../../components/Tittle/Tittle'
 function Tracks() {
   return (
-    <div>
-        <h1>this is the tacks page</h1>
-    </div>
+    <>
+      <Tittle mainTittle ="tracks offered by MUTC."/>
+      
+    </>
   )
 }
 
