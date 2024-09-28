@@ -1,0 +1,30 @@
+.course-titte{
+    text-align: center;
+    color: var(--color-brown);
+}
+
+.course-titte h3{
+    font-size: 25px;
+    text-shadow: 0 0 2rem var(--color-brown);
+
+}
+.event-detais tr th{
+    /* border: 1px solid var(--color-brown); */
+    gap: 3rem;
+    width: 70rem;
+}
+.course-titte{
+    margin-bottom: 2rem;
+}
+.main-events{
+    padding: 5rem 3rem;
+}
+.header-event th{
+    font-style: italic;
+    font-size: 2rem;
+    opacity: .5;
+}
+
+.event-f-detais:hover{
+    text-shadow: 0 0 2rem var(--color-black);
+}
