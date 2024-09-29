@@ -10,8 +10,9 @@ import Leadership from "./pages/Leadership/Leadership";
 function App() {
   return (
     <>
+    
       <BrowserRouter>
-        <Header />
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Leadership" element={<Leadership />} />
@@ -20,6 +21,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      
     </>
   );
 }
