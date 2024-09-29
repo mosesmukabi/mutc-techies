@@ -20,11 +20,14 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Dr. John Ndia is an academic leader with a passion for nurturing young tech talents at Murang'a University. His extensive experience in educational leadership provides invaluable guidance to the club.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-john-ndia",
-    //     Twitter: "https://www.twitter.com/dummy-john-ndia",
-    //     Facebook: "https://www.facebook.com/dummy-john-ndia"
-    //   }
+      
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+  
   },
   {
     Leaderimg: njeri,
@@ -34,12 +37,12 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Victory Njeri is a dynamic leader and advocate for innovation, steering the club toward impactful projects that contribute to both the university and the tech community.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-victory-njeri",
-    //     Twitter: "https://www.twitter.com/dummy-victory-njeri",
-    //     Facebook: "https://www.facebook.com/dummy-victory-njeri",
-    //     Instagram: "https://www.instagram.com/dummy-victory-njeri"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
   },
   {
     Leaderimg: allan,
@@ -50,10 +53,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Allan Muhari is committed to fostering collaboration within the club, ensuring smooth operations and active engagement among members.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-allan-muhari",
-    //     Twitter: "https://www.twitter.com/dummy-allan-muhari"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+    
   },
   {
     Leaderimg: bridget,
@@ -63,10 +69,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Bridget Gitonga excels in organizational tasks, keeping the club's communication and documentation in order.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-bridget-gitonga",
-    //     Twitter: "https://www.twitter.com/dummy-bridget-gitonga"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+  
   },
   {
     Leaderimg: ruth,
@@ -76,10 +85,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Ruth Mutisya is responsible for the club's financial management, ensuring that all projects are executed within budget.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-ruth-mutisya",
-    //     Instagram: "https://www.instagram.com/dummy-ruth-mutisya"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+
   },
   {
     Leaderimg: ifadhe,
@@ -89,12 +101,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Webster Ifedha specializes in protecting digital assets, guiding members on the importance of secure systems and ethical hacking.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-webster-ifedha",
-    //     Twitter: "https://www.twitter.com/dummy-webster-ifedha",
-    //     Facebook: "https://www.facebook.com/dummy-webster-ifedha",
-    //     Instagram: "https://www.instagram.com/dummy-webster-ifedha"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+
   },
   {
     Leaderimg: manase,
@@ -105,12 +118,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Manase Gunga is passionate about creating user-friendly designs and interfaces, ensuring a smooth user experience for the club’s digital products.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-manase-gunga",
-    //     Twitter: "https://www.twitter.com/dummy-manase-gunga",
-    //     Facebook: "https://www.facebook.com/dummy-manase-gunga",
-    //     Instagram: "https://www.instagram.com/dummy-manase-gunga"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+    
   },
   {
     Leaderimg: carolyne,
@@ -121,12 +135,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Carolyne Githenduka is an expert in web technologies, leading the development of innovative websites that meet modern standards.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-carolyne-githenduka",
-    //     Twitter: "https://www.twitter.com/dummy-carolyne-githenduka",
-    //     Facebook: "https://www.facebook.com/dummy-carolyne-githenduka",
-    //     Instagram: "https://www.instagram.com/dummy-carolyne-githenduka"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+    
   },
   {
     Leaderimg: paul,
@@ -137,12 +152,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Paul Karanja is skilled in cloud computing, ensuring the club’s projects are scalable and hosted efficiently.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-paul-karanja",
-    //     Twitter: "https://www.twitter.com/dummy-paul-karanja",
-    //     Facebook: "https://www.facebook.com/dummy-paul-karanja",
-    //     Instagram: "https://www.instagram.com/dummy-paul-karanja"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+    
   },
   {
     Leaderimg: stanley,
@@ -152,12 +168,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Stanley Amunze focuses on creating mobile applications that solve real-world problems and enhance user interaction.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-stanley-amunze",
-    //     Twitter: "https://www.twitter.com/dummy-stanley-amunze",
-    //     Facebook: "https://www.facebook.com/dummy-stanley-amunze",
-    //     Instagram: "https://www.instagram.com/dummy-stanley-amunze"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+    
   },
   {
     Leaderimg: evyonn,
@@ -167,12 +184,13 @@ const Leaders = [
     Heading2: "Biography",
     Biography:
       "Evyonn Mbithe is proficient in Microsoft’s Power Platform, guiding members on how to build efficient business solutions.",
-    //   SocialMedia: {
-    //     LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
-    //     Twitter: "https://www.twitter.com/dummy-evyonn-mbithe",
-    //     Facebook: "https://www.facebook.com/dummy-evyonn-mbithe",
-    //     Instagram: "https://www.instagram.com/dummy-evyonn-mbithe"
-    //   }
+      SocialMedia: {
+        LinkedIn: "https://www.linkedin.com/dummy-evyonn-mbithe",
+        Twitter: "https://www.twitter.com/dummy-ndia",
+   Facebook: "https://www.facebook.com/dummy-ndia",
+   Instagram: "https://www.instagram.com/dummy-ndia",
+   }
+  
   },
 ];
 

@@ -64,3 +64,19 @@
 .Biography-text {
   margin-bottom: 1rem;
 }
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links li a {
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+  color: #0077b5; /
+}
