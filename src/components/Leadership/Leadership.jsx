@@ -1,50 +1,73 @@
 // import moses from '../../assets/image8.jpeg'
-import React from 'react';
-import './Leadership.css';
-import Leaders from '../../data/Leadership';
-import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import React from "react";
+import "./Leadership.css";
+import Leaders from "../../data/Leadership";
+import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
-
-function Leadershipcards({ Leaderimg, LeaderName, Heading1, Heading2, Responsibility, Biography, SocialMedia }) {
+function Leadershipcards({
+  Leaderimg,
+  LeaderName,
+  Heading1,
+  Heading2,
+  Responsibility,
+  Biography,
+  SocialMedia,
+}) {
   return (
     <div className="Leadership-cards">
       <div className="Leaders-details">
         <img src={Leaderimg} alt={LeaderName} />
       </div>
       <div className="moses-section">
-      <h2 className="leader-name">{LeaderName}</h2>
-      <div className="Leader-details">
-        <h4 className='headingR'>{Heading1}</h4>
-        <p className="Responsibility-text">{Responsibility}</p>
-        <h4 className='headingB'>{Heading2}</h4>
-        <p className="Biography-text">{Biography}</p>
-      </div>
-      <div className="social-links">
+        <h2 className="leader-name">{LeaderName}</h2>
+        <div className="Leader-details">
+          <h4 className="headingR">{Heading1}</h4>
+          <p className="Responsibility-text">{Responsibility}</p>
+          <h4 className="headingB">{Heading2}</h4>
+          <p className="Biography-text">{Biography}</p>
+        </div>
+        <div className="social-links">
           <ul>
             {SocialMedia?.LinkedIn && (
               <li>
-                <a href={SocialMedia.LinkedIn} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={SocialMedia.LinkedIn}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaLinkedin size={24} />
                 </a>
               </li>
             )}
             {SocialMedia?.Twitter && (
               <li>
-                <a href={SocialMedia.Twitter} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={SocialMedia.Twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaTwitter size={24} />
                 </a>
               </li>
             )}
             {SocialMedia?.Facebook && (
               <li>
-                <a href={SocialMedia.Facebook} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={SocialMedia.Facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaFacebook size={24} />
                 </a>
               </li>
             )}
             {SocialMedia?.Instagram && (
               <li>
-                <a href={SocialMedia.Instagram} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={SocialMedia.Instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaInstagram size={24} />
                 </a>
               </li>
@@ -60,26 +83,21 @@ function LeadershipDetais() {
   return (
     <section>
       <div className="raeder-container">
-      
-      {
-        
-            Leaders.map((leadership, i)=>(
-                <Leadershipcards
-                key={i}
-                Leaderimg={leadership.Leaderimg}
-                LeaderName={leadership.LeaderName}
-                Heading1={leadership.Heading1}
-                Responsibility={leadership.Responsibility}
-                Heading2={leadership.Heading2}
-                Biography={leadership.Biography}
-                SocialMedia={leadership.SocialMedia}
+        {Leaders.map((leadership, i) => (
+          <Leadershipcards
+            key={i}
+            Leaderimg={leadership.Leaderimg}
+            LeaderName={leadership.LeaderName}
+            Heading1={leadership.Heading1}
+            Responsibility={leadership.Responsibility}
+            Heading2={leadership.Heading2}
+            Biography={leadership.Biography}
+            SocialMedia={leadership.SocialMedia}
+          />
+        ))}
+      </div>
 
-                />
-            ))
-         }
-    </div>
-
-    {/* <div className="Leadership-container">
+      {/* <div className="Leadership-container">
       <Leadershipcards
         Leaderimg={moses}
         LeaderName="Moses Mukabi"
@@ -102,10 +120,8 @@ function LeadershipDetais() {
         }
       />
     </div> */}
-    
     </section>
   );
 }
 
 export default LeadershipDetais;
-

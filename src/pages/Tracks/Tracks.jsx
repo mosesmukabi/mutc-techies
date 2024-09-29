@@ -7,7 +7,7 @@ function Tracks() {
     <>
       <Tittle mainTittle="tracks offered by MUTC." />
       <Tracksdetais />
-      <Enroll/>
+      <Enroll />
     </>
   );
 }

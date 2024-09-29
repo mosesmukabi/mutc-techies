@@ -1,11 +1,11 @@
 .tracks-cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   justify-items: center;
   justify-content: center;
   margin-bottom: 7rem;
 }
-
 .header {
   text-align: center;
   color: var(--color-brown);
@@ -22,6 +22,11 @@
 .tracks-video video {
   height: 33rem;
   border-radius: 7px;
+}
+@media screen and (max-width: 40.56rem) {
+  .tracks-video video {
+    width: 100%;
+  }
 }
 .track-cintent-section {
   width: 60rem;

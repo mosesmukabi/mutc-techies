@@ -5,10 +5,10 @@
 
 .course-titte h3 {
   font-size: 25px;
-  text-shadow: 0 0 2rem var(--color-brown);
+  text-shadow: 0 0 1rem var(--color-brown);
 }
 .event-detais tr th {
-   border: 1px solid var(--color-brown); 
+  border: 1px solid var(--color-brown);
   gap: 3rem;
   width: 70rem;
 }
@@ -23,4 +23,23 @@
   font-size: 2rem;
   opacity: 0.5;
 }
+@media screen and (max-width: 47.18rem) {
+  .event-f-detais {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+  }
+  .header-event{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    position: relative;
+  }
+}
 
+/* @media screen and (max-width: 42) {
+  .main-events {
+    width: 33rem;
+  }
+} */

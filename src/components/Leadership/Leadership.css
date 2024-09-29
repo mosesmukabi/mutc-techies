@@ -8,6 +8,12 @@
   height: 21.5rem;
   background-color: var(--color-primary);
 }
+@media screen and (max-width: 23rem) {
+  .Leadership-cards {
+    width: 100%;
+  }
+}
+
 
 .Leaders-details img {
   --size: 20rem;
@@ -78,5 +84,5 @@
 }
 
 .social-links li a:hover {
-  color: #0077b5; /
+  color: #0077b5;
 }
