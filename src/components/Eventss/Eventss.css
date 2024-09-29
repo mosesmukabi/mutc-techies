@@ -10,7 +10,7 @@
 .event-detais tr th {
   border: 1px solid var(--color-brown);
   gap: 3rem;
-  width: 70rem;
+  width: 30rem;
 }
 .course-titte {
   margin-bottom: 2rem;
