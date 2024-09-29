@@ -1,7 +1,7 @@
 .Testimonials-cards {
   box-shadow: 0 0 1rem var(--color-black);
   border-radius: 15px;
-  width: 60rem;
+  width: 50rem;
   margin: 2rem auto;
   padding: 1rem;
 }
@@ -27,6 +27,7 @@
 .testmony-tittle {
   text-transform: capitalize;
   margin: 2rem 0;
+  display: flex;
 }
 
 .testmony-text {
@@ -36,5 +37,18 @@
 }
 
 .testmonials-container {
-  margin: 6rem 7rem;
+  width: 60%;
+  margin: 2rem auto;
+}
+@media screen and (max-width: 50em) {
+  .Testimonials-cards {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 39.63rem) {
+  .testmonials-container{
+    width: 100%;
+  }
 }
